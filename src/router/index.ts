@@ -11,6 +11,30 @@ const routes: Array<RouteConfig> = [
     component: Home
   },
   {
+    path: '/ex01',
+    name: 'About',
+   
+    component: () => import( '../views/Ex01.vue')
+  },
+  {
+    path: '/ex02',
+    name: 'About',
+   
+    component: () => import( '../views/Ex02.vue')
+  },
+  {
+    path: '/ex03',
+    name: 'About',
+   
+    component: () => import( '../views/Ex03.vue')
+  },
+  {
+    path: '/ex04',
+    name: 'About',
+   
+    component: () => import( '../views/Ex04.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
